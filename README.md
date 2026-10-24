@@ -17,9 +17,7 @@ The analysis is being developed as part of the Environmental Data Visualization 
 The exploratory analysis addresses three questions:
 
 1.  How do shoot and root length distributions differ across temperatures?
-
 2.  How do growth responses vary among sunflower genotypes?
-
 3.  How does data completeness affect the interpretation of temperature-related patterns?
 
 ## Dataset Description
@@ -27,9 +25,7 @@ The exploratory analysis addresses three questions:
 The dataset contains **168 experimental records**, representing:
 
 - **14 sunflower genotypes**
-
 - **3 temperature treatments:** 25°C, 40°C, and 45°C
-
 - **4 replications per genotype–temperature combination**
 
 The dataset includes shoot length, root length, germination measurements, leaf temperature, and mortality-related variables.
@@ -113,6 +109,7 @@ To reproduce the figures, open the RStudio project and run the relevant scripts 
 - `scripts/04_descriptive_statistics.R`
 - `scripts/05_root_length_visualization.R`
 - `scripts/06_additional_eda_figures.R`
+
 The figures and tables are generated from the original dataset stored in `data/raw/`.
 
 ## Project Status
