@@ -32,6 +32,22 @@ The dataset includes shoot length, root length, germination measurements, leaf t
 
 Measurements are not available for every variable under every temperature treatment. Missing observations are retained as missing values rather than automatically replaced with zeros.
 
+### Data Source
+
+The experimental dataset was obtained from the Ayub Agricultural Research Institute (AARI), Pakistan, through a Research Officer associated with M.Phil. research. It is used here for exploratory data analysis and scientific visualization.
+
+## Descriptive Statistics
+
+The following table summarizes observed shoot and root length measurements across temperature treatments. Values are reported as mean ± standard deviation (SD).
+
+| Temperature | Shoot (N) | Shoot mean ± SD (cm) | Root (N) | Root mean ± SD (cm) |
+|---------------|--------------:|--------------:|--------------:|--------------:|
+| 25°C        |        56 |          0.95 ± 0.60 |       56 |         2.32 ± 0.87 |
+| 40°C        |        53 |          1.69 ± 0.77 |       51 |         2.09 ± 1.02 |
+| 45°C        |        15 |          2.43 ± 1.54 |       15 |         2.85 ± 1.64 |
+
+*Note: N represents the number of non-missing measurements. Means are calculated using available observations only.*
+
 ## Exploratory Data Analysis
 
 ### 1. Shoot Length Across Temperatures
@@ -102,15 +118,26 @@ The next stages will focus on clarifying data completeness, improving genotype c
 
 ## Reproducibility
 
-The analyses use R and the packages `readxl`, `dplyr`, `tidyr`, `ggplot2`, and `scales`.
-To reproduce the figures, open the RStudio project and run the relevant scripts from the project root directory. The main visualization scripts are:
+The analyses use R and the packages `readxl`, `dplyr`, `tidyr`, `ggplot2`, and `scales`. To reproduce the figures, open the RStudio project and run the relevant scripts from the project root directory. The main visualization scripts are:
 
 - `scripts/03_shoot_length_visualization.R`
+
 - `scripts/04_descriptive_statistics.R`
+
 - `scripts/05_root_length_visualization.R`
+
 - `scripts/06_additional_eda_figures.R`
 
-The figures and tables are generated from the original dataset stored in `data/raw/`.
+  ### Analysis Workflow
+
+  | R Script | Output |
+  |------------------------------------|------------------------------------|
+  | `03_shoot_length_visualization.R` | Shoot length boxplot |
+  | `04_descriptive_statistics.R` | Descriptive statistics CSV |
+  | `05_root_length_visualization.R` | Root length boxplot |
+  | `06_additional_eda_figures.R` | Genotype variation, heatmap, and data completeness figures |
+
+  All analyses use the original dataset without replacing missing observations with zeros.
 
 ## Project Status
 
