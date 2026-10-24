@@ -1,6 +1,6 @@
 # **Sunflower Growth Responses to Temperature Stress**
 
-![Sunflower experimental design and analysis workflow](figures/00_study_design_workflow.png){width="410"}
+![Sunflower experimental design and analysis workflow](figures/00_study_design_workflow.png){width="443"}
 
 ## Project Overview
 
