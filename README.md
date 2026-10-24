@@ -1,6 +1,6 @@
 # **Sunflower Growth Responses to Temperature Stress**
 
-![Sunflower experimental design and analysis workflow](figures/00_study_design_workflow.png)
+![Sunflower experimental design and analysis workflow](figures/00_study_design_workflow.png){width="410"}
 
 ## Project Overview
 
@@ -42,7 +42,7 @@ Measurements are not available for every variable under every temperature treatm
 
 The observed mean shoot lengths were 0.95 cm at 25°C, 1.69 cm at 40°C, and 2.43 cm at 45°C. However, the number of available observations decreased from 56 at 25°C to only 15 at 45°C.
 
-![](figures/01_shoot_length_temperature.png){width="446"}
+![](figures/01_shoot_length_temperature.png){width="309"}
 
 Consequently, higher observed means at 45°C should not be interpreted as evidence of superior overall growth or heat tolerance.
 
@@ -50,7 +50,7 @@ Consequently, higher observed means at 45°C should not be interpreted as eviden
 
 The observed mean root lengths were 2.32 cm at 25°C, 2.09 cm at 40°C, and 2.85 cm at 45°C.
 
-![](figures/02_root_length_temperature.png){width="435"}
+![](figures/02_root_length_temperature.png){width="309"}
 
 Differences in sample availability and variability require caution when comparing temperature treatments.
 
@@ -58,7 +58,7 @@ Differences in sample availability and variability require caution when comparin
 
 This figure displays individual shoot and root length observations for the 14 sunflower genotypes. Diamond markers represent observed group means.
 
-![](figures/03_genotype_growth_variation.png){width="526"}
+![](figures/03_genotype_growth_variation.png){width="421"}
 
 The visualization highlights variation among genotypes and across temperature treatments.
 
@@ -66,7 +66,7 @@ The visualization highlights variation among genotypes and across temperature tr
 
 The heatmaps summarize mean shoot and root length for each genotype–temperature combination.
 
-![](figures/04_genotype_temperature_heatmap.png){width="506"}
+![](figures/04_genotype_temperature_heatmap.png){width="382"}
 
 Grey cells indicate combinations without available measurements. These patterns highlight the importance of sample availability when interpreting genotype responses.
 
@@ -74,7 +74,7 @@ Grey cells indicate combinations without available measurements. These patterns 
 
 Data completeness varies considerably across temperature treatments.
 
-![](figures/05_data_completeness_temperature.png)
+![](figures/05_data_completeness_temperature.png){width="419"}
 
 Shoot and root length observations are complete at 25°C, nearly complete at 40°C, and available for only approximately 27% of records at 45°C. Germination measurements are available at 25°C but missing at 40°C and 45°C. Mortality-related measurements show a different availability pattern. These differences limit direct comparisons across variables and treatments.
 
